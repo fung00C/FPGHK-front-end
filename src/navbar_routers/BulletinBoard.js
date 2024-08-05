@@ -106,7 +106,7 @@ export default function BulletinBoard() {
             </div>
             <span className={styles.spn_tagBar0}>全選</span>
           </button>
-          <div style={{height: "75%", width: "2px", margin: "0 10px", backgroundColor: "#767676"}}></div>
+          <div style={{height: "50px", width: "2px", margin: "0 10px", backgroundColor: "#767676"}}></div>
           <>{tagBarCollection.map((item, index) => {
             return (<>
               <button key={index} className={item.btnStyle} onClick={() => handleTagBarBtn(item.name)}>
