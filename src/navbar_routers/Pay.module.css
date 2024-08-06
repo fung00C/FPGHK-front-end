@@ -42,7 +42,8 @@
 }
 
 .payForm_container {
-    height: 350px;
+    min-height: 350px;
+    height: fit-content;
     width: 800px;
     display: flex;
     z-index: 1; 
